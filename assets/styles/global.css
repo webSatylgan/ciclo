@@ -1,0 +1,90 @@
+/* imports ---------------- */
+@import "reset.css";
+@import "vars.css";
+
+/* styles ----------------- */
+/* blocks */
+html {
+    font-size: 16px;
+}
+body {
+    font-family: var(--font-family);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* tags styles -------------- */
+h1, h2, h3 {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+h1 {
+    color: #fff;
+    font-size: 3.75rem;
+}
+
+h3 {
+    font-size: 1.875rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 180%;
+    color: var(--secondary);
+}
+
+a {
+}
+
+a:hover {
+}
+
+button {
+}
+
+input {
+}
+
+/* container classes ----------- */
+.container {
+    max-width: 1480px;
+    width: 100%;
+
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* media ---------------- */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 18px 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,11 @@
+/* _variables.css */
+:root {
+    /* colors */
+    --primary: #1c1f25;
+    --secondary: #6a6e77;
+    --accent: #e3e6ec;
+
+    /* fonts */
+    --font-family: "Quicksand", sans-serif;
+
+}
