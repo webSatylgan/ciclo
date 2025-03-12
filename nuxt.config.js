@@ -1,7 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    pages: false,
+
+    router: {
+        base: "/"
+    },
+
+    css: ["@/assets/styles/global.css"],
     app: {
-        baseURL: "/ciclo/",
+        baseURL: "/Ciclo/",
 
         head: {
             // title
