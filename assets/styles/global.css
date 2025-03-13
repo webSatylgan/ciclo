@@ -56,6 +56,11 @@ button {
 input {
 }
 
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
 /* container classes ----------- */
 .container {
     max-width: 1480px;

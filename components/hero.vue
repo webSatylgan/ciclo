@@ -15,7 +15,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .hero__container {
         width: 100%;
         padding: 155px 240px;
