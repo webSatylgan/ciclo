@@ -16,3 +16,9 @@
     <p>{{subTitle}}</p>
     <h2>{{title}}</h2>
 </template>
+
+<style scoped>
+    h2 {
+        margin-top: 32px;
+    }
+</style>

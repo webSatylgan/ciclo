@@ -52,7 +52,6 @@ import TitleLayout from "@/components/ui/titleLayout.vue";
 
     ::v-deep(.slide-3__text h2) {
         max-width: 470px;
-        margin-top: 32px;
     }
 
     .slide-3__bars {
