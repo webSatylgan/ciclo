@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="hero block">
+    <div class="hero">
         <div class="container">
             <div class="hero__container">
                 <div class="hero__text">
