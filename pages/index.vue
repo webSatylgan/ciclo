@@ -9,6 +9,7 @@
     import Slide7 from "@/components/slide-7.vue";
     import Slide8 from "@/components/slide-8.vue";
     import Slide9 from "@/components/slide-9.vue";
+    import Slide10 from "@/components/slide-10.vue";
 
     const siteModules = [
         {name: "hero", component: Hero},
@@ -20,6 +21,7 @@
         {name: "slide-7", component: Slide7},
         {name: "slide-8", component: Slide8},
         {name: "slide-9", component: Slide9},
+        {name: "slide-10", component: Slide10},
     ]
 </script>
 
