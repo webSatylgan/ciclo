@@ -6,6 +6,7 @@
     import Slide4 from "@/components/slide-4.vue";
     import Slide5 from "@/components/slide-5.vue";
     import Slide6 from "@/components/slide-6.vue";
+    import Slide7 from "@/components/slide-7.vue";
 
     const siteModules = [
         {name: "hero", component: Hero},
@@ -14,11 +15,12 @@
         {name: "slide-4", component: Slide4},
         {name: "slide-5", component: Slide5},
         {name: "slide-6", component: Slide6},
+        {name: "slide-7", component: Slide7},
     ]
 </script>
 
 <template>
-    <template v-for="({name, component}) in siteModules" :key="name">
+    <template v-for="({name, component}, index) in siteModules" :key="name">
         <component :is="component" class="block" />
     </template>
 </template>
